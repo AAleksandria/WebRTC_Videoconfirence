@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+
+  <title>WebRTC video conference</title>
+
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+
+  <div id="container">
+
+    <h1><span>WebRTC video conference with output SDP</span></h1>
+
+    <div id="buttons">
+      <input type="text" id="ipUser"size="40">
+      <button id="start">Start</button>
+      <button id="get">GetMess</button>
+      <button id="PC">PeerConn</button>
+      <button id="offer">Offer</button>
+      <button id="answer">Answer</button>
+      <button id="hangUp">Hang Up</button>
+    </div>
+
+    <div id="preview">
+      <div id="local">
+
+        <video id="remote" autoplay></video>
+        <video id="local" autoplay muted></video>
+        
+        <br>
+        <br>
+      </div>
+      
+      <!-- <div id="offer">
+        <h3>Offer SDP</h3>
+        <textarea></textarea>
+      </div>
+      
+      <div id="answer">
+        <h3>Answer SDP</h3>
+        <textarea></textarea>
+      </div> -->
+    </div>
+
+  </div>
+
+  <script src="js/adapter.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main2.js"></script>
+
+
+</body>
+</html>
