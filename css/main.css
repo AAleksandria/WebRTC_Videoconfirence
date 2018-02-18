@@ -36,8 +36,25 @@ form {
   white-space: nowrap;
 }
 
+div#modal-1{
+  position:fixed;
+  top: 40%;
+  left: 50%;
+  width: 660px;
+  margin-left: 0px;
+}
+
+#modal-dialog1 {
+    width: 500px !important;
+    margin: 10% 43% !important;
+}
+
 h1 {
   font-family: Arial;
+}
+
+p{
+  margin-bottom: 0px;
 }
 
 h2 {

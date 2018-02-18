@@ -1,0 +1,194 @@
+body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+    font-family: Arial;
+}
+
+.form-signin {
+    max-width: 360px;
+    padding: 19px 29px 29px;
+    margin: 40px auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+button{
+  /*height: 35px;*/
+  /*padding-right: 10px;*/
+  /*width: 85px;*/
+}
+
+#modal-dialog1 {
+    width: 500px !important;
+    margin: 10% 43% !important;
+}
+
+#reg{
+    float: right;
+    right:20px;
+}
+
+.navbar{
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  height: 40px;
+}
+
+form.login{
+  float:right;
+  right: 30px;
+}
+
+button.btn-success{
+  margin-top: -5px;
+  height: 30px;
+  padding-top: 3px;
+
+
+}
+
+input#login{
+  height: 30px;
+  width: 100px;
+}
+
+input#password{
+  height: 30px;
+  width: 100px;
+}
+
+
+.container{
+  position: relative;
+}
+
+#video{
+  vertical-align: top;
+  display:inline-block;
+  min-height: 200px;
+  max-height: 600px;
+  min-width: 390px;
+  max-width: 900px;
+  width: 800px;
+  height: 900px;
+  padding-left: 40px;
+  padding-right: 0px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+#sidebar{
+  vertical-align: top;
+  display:inline-block;
+  position:relative;
+  min-height: 200px;
+  max-height: 900px;
+  min-width: 250px;
+  max-width: 900px;
+  width: 280px;
+  height: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+input#user1 {
+  margin-bottom: 5px;
+  margin-left: 0px;
+  border-width: 2px; 
+}
+
+input#user2 {
+  margin-bottom: 5px;
+  margin-left: 0px;
+  width: 265px;
+  border-width: 2px; 
+}
+
+video#remote {
+  margin: 20px 20px 10px 10px;
+  padding: 0px;
+  border: 1px solid #CCC;
+  background: #222;
+  height: auto;
+  width: 660px;
+  height: 507px;
+  max-width: 90%;
+  min-width: 20%;
+  max-height: 90%;
+  min-height: 20%;
+  z-index: 1;
+}
+
+video#local {
+  position: relative;
+  float:right;
+  right: 95px;
+  bottom: 170px;
+  border: 1px solid #CCC;
+  background: #252525;
+  width: 200px;
+  height: 150.5px;
+  max-width: 90%;
+  min-width: 10%;
+  max-height: 90%;
+  min-height: 10%;
+  z-index: 2;
+}
+
+@media screen and (max-width:720px){
+    #sidebar{
+        padding-left: 60px;
+        width: 600px;
+    }
+    #video{
+        width: 620px;
+        height: 485px; 
+    }
+    video#remote {
+        width: 560px;
+        height: 500px;
+    }
+    video#local {
+        right: 50px;
+        bottom: 120px;
+        width: 133px;
+        height: 100px;
+    }
+    input#user2 {
+        width: 220px;
+}
+}
+
+@media screen and (max-width:1080px){
+    #sidebar{
+        padding-top: 0px;
+        padding-left: 60px;
+        width: 600px;
+    }
+
+
+@import url(reset.css);
+
+
+
